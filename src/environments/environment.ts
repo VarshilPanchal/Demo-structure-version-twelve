@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+
+  // Local Host URL
+  apiEndPoint: 'http://localhost:8090/',
+  baseURL: 'http://localhost:8090',
+
+
+  bellNotificationInterval: 2000 * 60,
+  autoLogout: 7200000, // 2 hours
+  autoLogoutimmediate: 43200000, // 12 hours
 };
 
 /*
